@@ -1,0 +1,12 @@
+.home-header{
+  
+    background-color: #140812;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 10vh;
+  }
+
+.app-title{
+    margin-left: -15%;
+}

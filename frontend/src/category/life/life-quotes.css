@@ -1,0 +1,17 @@
+
+.life-quotes-container{
+  background-color: #1e0f7285;
+  color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  border-radius: 10%;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.author-name-life{
+  color: #FF907D;
+}
