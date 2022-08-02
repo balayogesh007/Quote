@@ -1,12 +1,11 @@
 .friend-quotes-container{
   background-color: #ffffff;
   color: #ffffff;
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 15%;
-  left: 30%;
-  border-radius: 10%;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 80vh;
+  height: 45vh;
+  border-radius: 10px;
   padding: 20px;
 }
 
@@ -15,11 +14,7 @@
 }
 
 .carousel-left{
-  position: relative;
-  top: 50%;
-  left: -50%;
   background: url('../../images/spriteimage.svg') no-repeat -599px -27px;
-  background-color: #ffffff;
   width: 16px;
 	height: 8px;
   display: inline-block;
@@ -28,11 +23,7 @@
 }
 
 .carousel-right{
-  position: relative;
-  top: 50%;
-  left: 50%;
   background: url('../../images/spriteimage.svg') no-repeat -599px -27px;
-  background-color: #ffffff;
   width: 16px;
 	height: 8px;
   display: inline-block;
@@ -40,17 +31,42 @@
   transform: rotate(-90deg);
 }
 
-.carousel-left:hover{
-  cursor: pointer;
-  background-color: #848884;
-  
+.carousel-left-container{
+ width: 30px;
+ height: 30px;
+ margin-top: 25%;
+ margin-left: 0px;
+ border-radius: 50%;
+ background-color: #ffffff;
 }
 
-.carousel-right:hover{
-  cursor: pointer;
-  background-color: #848884;
-}
+.carousel-left-container:hover{
+  width: 30px;
+  height: 30px;
+  margin-top: 25%;
+  margin-left: 0px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+ }
 
+.carousel-right-container{
+  width: 30px;
+  height: 30px;
+  margin-top: -5%;
+  margin-left: 95%;
+  border-radius: 50%;
+  background-color: #ffffff;
+ }
+
+ .carousel-right-container:hover{
+  width: 30px;
+  height: 30px;
+  margin-top: -5%;
+  margin-left: 95%;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+ }
+ 
 .hello{
   background-color: black;
 }

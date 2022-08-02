@@ -45,8 +45,8 @@ const FriendshipQuotes = () => {
             </div>
           )
         })} */}
-        <span className="carousel-left"></span>
-        <span className="carousel-right" onClick = {nextQuote}></span>
+        <div className="carousel-left-container"><span className="carousel-left"></span></div>
+        <div className="carousel-right-container"><span className="carousel-right" onClick = {nextQuote}></span></div>
       </div>
     </div>
   )
