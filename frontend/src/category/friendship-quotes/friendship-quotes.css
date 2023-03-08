@@ -1,72 +1,25 @@
 .friend-quotes-container{
-  background-color: #ffffff;
+  background-color: #1e0f7285;
   color: #ffffff;
-  margin-left: 20%;
-  margin-top: 10%;
-  width: 80vh;
-  height: 45vh;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 10px;
   padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.author-name-friend{
-  color: #FF907D;
-}
-
-.carousel-left{
-  background: url('../../images/spriteimage.svg') no-repeat -599px -27px;
-  width: 16px;
-	height: 8px;
-  display: inline-block;
-  z-index: 1;
-  transform: rotate(90deg);
-}
-
-.carousel-right{
-  background: url('../../images/spriteimage.svg') no-repeat -599px -27px;
-  width: 16px;
-	height: 8px;
-  display: inline-block;
-  z-index: 1;
-  transform: rotate(-90deg);
-}
-
-.carousel-left-container{
- width: 30px;
- height: 30px;
- margin-top: 25%;
- margin-left: 0px;
- border-radius: 50%;
- background-color: #ffffff;
-}
-
-.carousel-left-container:hover{
-  width: 30px;
-  height: 30px;
-  margin-top: 25%;
-  margin-left: 0px;
-  border-radius: 50%;
-  background-color: #d3d3d3;
- }
-
-.carousel-right-container{
-  width: 30px;
-  height: 30px;
-  margin-top: -5%;
-  margin-left: 95%;
-  border-radius: 50%;
-  background-color: #ffffff;
- }
-
- .carousel-right-container:hover{
-  width: 30px;
-  height: 30px;
-  margin-top: -5%;
-  margin-left: 95%;
-  border-radius: 50%;
-  background-color: #d3d3d3;
- }
- 
 .hello{
   background-color: black;
+}
+
+.content-container{
+  width: 350px;
 }

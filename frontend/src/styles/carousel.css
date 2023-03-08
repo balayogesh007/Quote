@@ -1,0 +1,41 @@
+.carousel-left {
+  background: url('../images/spriteimage.svg') no-repeat -599px -27px;
+  width: 16px;
+  height: 8px;
+  display: inline-block;
+  z-index: 1;
+  transform: rotate(90deg);
+}
+
+.carousel-right {
+  background: url('../images/spriteimage.svg') no-repeat -599px -27px;
+  width: 16px;
+  height: 8px;
+  display: inline-block;
+  z-index: 1;
+  transform: rotate(-90deg);
+}
+
+.carousel-left-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-right-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-name {
+  color: #FF907D;
+}

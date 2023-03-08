@@ -8,7 +8,6 @@ import LoveQuotes from './category/love-quotes/love-quotes';
 import MotivationQuotes from './category/motivational-quotes/motivation-quotes';
 import PositiveQuotes from './category/positive-quotes/positive-quotes';
 import HeaderComponent from './pages/home-page/header';
-import HomePage from './pages/home-page/header';
 import SideBarComponent from './pages/nav-page/sideBarComponen';
 function App() {
   return (
@@ -28,7 +27,7 @@ function App() {
               <Route path='/love-quotes' element={<LoveQuotes/>} />
               <Route path='/friendship-quotes' element={<FriendshipQuotes/>} />
               <Route path='/positive-quotes' element={<PositiveQuotes/>} />
-            </Routes>   
+            </Routes>
         </div>
       </div>
     </div>
